@@ -5,13 +5,13 @@
     <title>과제3</title>
 </head>
 <body>
-<h3>2진수를 16진수로 변환 해보자!</h3>
+<h3>2진수를 16진수로 변환하기</h3>
 <hr>
 <script>
     var hex;
     var bnumber =prompt("2진수를 입력하세요");
     bnumber = parseInt(bnumber,2);
-    document.write("입력받은 2진수의 10진수는 "+bnumber+"<br>");
+
     if (bnumber <= 9)
         hex = bnumber;
     else if(bnumber==10)
@@ -26,7 +26,8 @@
         hex = "E";
     else
         hex = "F";
-    document.write("입력받은 2진수의 16진수는 "+hex);
+
+    document.write("입력받은 2진수인 "+bnumber+"의 16진수는 "+hex+"이다.");
 </script>
 </body>
 </html>
