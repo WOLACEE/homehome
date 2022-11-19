@@ -10,64 +10,37 @@
 <hr>
 <script>
     function new_row(prev_row) {
-        aa = []
-        cc = []
-        if (prev_row === 1) {
-            aa[0] = 1;
-            return aa
-        } else if (prev_row === 2) {
-            aa[0] = 1
-            aa[1] = 1
+            aa=[]
 
-            return aa
-        } else {
-            dd = new_row(prev_row - 1)//이게 문제다 문제야 문제 문제 근데 어떻게 해결하냐고
-            aa[0] = 1
-            aa[prev_row - 1] = 1
-
-            if (prev_row === 4) {
-                for (ii = 1; ii < prev_row - 1; ii++) {
-                    if (ii === 1) {
-                        aa[ii] = dd[ii - 1] + dd[ii]
-                    } else {
-                        aa[ii]= aa[prev_row - ii-1]
-                    }
-
-                }
+            if (prev_row === 1) {
+                aa[0]=1;
+                return aa
             }
 
-            else if (prev_row === 6) {
-                for (ii = 1; ii < prev_row - 1; ii++) {
-                    if (ii === 1) {
-                        aa[ii] = dd[ii - 1] + dd[ii]
-                    } else if(ii===2){
-                        aa[ii]= aa[prev_row - ii-1]+aa[prev_row - ii-2]
-                    }
-                      else {
-                          aa[ii]= aa[prev_row - ii-1]
-                    }
+            else if (prev_row === 2) {
+                aa[0]=1
+                aa[1]=1
+
+                 return aa
                 }
-            }
 
+             else {
 
-                else {
-                    for (ii = 1; ii < prev_row - 1; ii++) {
-                        if (ii === 1) {
-                            aa[ii] = aa[ii - 1] + aa[ii]
-                        }
-                        else if(ii===prev_row-3){
-                            aa[ii] = dd[ii-1]+dd[ii]-1
-                        }
-                        else {
-                            aa[ii] = aa[prev_row - ii-1]
-                        }
+                for (vv = 1; vv <= prev_row-2; vv++) {
+                        dd=new_row(prev_row-1)
+
+                    for (hh = (aa.length)-1; hh > 0; hh--) {
+                        aa[hh]= dd[hh-1]+dd[hh]
+
                     }
-
+                aa[0]=1
+                aa[prev_row-1]=1
                 }
-    return aa    }
-    }
 
+                return aa
+                }
 
+        }
 
         var pascal = prompt("숫자를 입력하세요", 7);
 
