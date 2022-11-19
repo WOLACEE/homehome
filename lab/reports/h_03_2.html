@@ -28,6 +28,7 @@
                 dd = new_row(prev_row-1)//이게 문제다 문제야 문제 문제 근데 어떻게 해결하냐고
                 aa[0]=1
                 aa[prev_row-1]=1
+
                 for (ii = 1; ii < prev_row-1; ii++) {
                     aa[ii]= dd[ii-1]+dd[ii]
                     }
@@ -46,7 +47,7 @@
             B=new_row(A)
 
             for(i=0; i<A; i++){
-            document.write(B[i])
+            document.write(B[i]+" ")
             }
 
             document.write("<br>")
