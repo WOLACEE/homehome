@@ -13,16 +13,18 @@
             aa=[]
 
             if (prev_row === 1) {
-                return 1;
+                aa[0]=1;
+                return aa
             }
 
             else if (prev_row === 2) {
                 aa[0]=1
                 aa[1]=1
-                return aa
+
+                 return aa
                 }
 
-            else {
+             else {
                 dd = new_row(prev_row-1)//이게 문제다 문제야 문제 문제 근데 어떻게 해결하냐고
                 aa[0]=1
                 aa[prev_row-1]=1
@@ -42,7 +44,11 @@
 
         for (A=1; A<pascal+1; A++){
             B=new_row(A)
-            document.write(B+"<br>")
+
+            for(i=0; i<A; i++){
+            document.write(B[i])
+            }
+        document.write("<br>")
         }
 
 </script>
