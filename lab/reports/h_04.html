@@ -35,20 +35,53 @@ initial-scale=1">
 
 
         function pascals() {
-            size=document.getElementById('size').value
+            document.getElementById("draw_area").innerHTML='';
+            function new_row(prev_row) {
+            aa=[]
 
-                B = [1, 2]
-                    for (i = 0; i <size; i++) {
-
-                        document.getElementById("draw_area").innerHTML += "<span>" + B[i] + " </span>"
-
-                    }
-                    document.getElementById("draw_area").innerHTML += "<br>"
-
-
+            if (prev_row === 1) {
+                aa[0]=1;
+                return aa
             }
 
+            else if (prev_row === 2) {
+                aa[0]=1
+                aa[1]=1
 
+                 return aa
+                }
+
+             else {
+
+                for (vv = 1; vv <= prev_row-2; vv++) {
+                        dd=new_row(prev_row-1)
+
+                    for (hh = (aa.length)-1; hh > 0; hh--) {
+                        aa[hh]= dd[hh-1]+dd[hh]
+
+                    }
+                aa[0]=1
+                aa[prev_row-1]=1
+                }
+
+                return aa
+                }
+
+        }
+
+        var pascal = document.getElementById("size").value
+            pascal = parseInt(pascal);
+
+        for (A=1; A<pascal+1; A++){
+            B=new_row(A)
+
+            for(i=0; i<A; i++){
+            document.getElementById("draw_area").innerHTML+=(B[i]+" ")
+            }
+
+            document.getElementById("draw_area").innerHTML+=("<br>")
+        }
+        }
 
 
 
