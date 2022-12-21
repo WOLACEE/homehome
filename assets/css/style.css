@@ -596,6 +596,7 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  font-family: 'Gowun Dodum', sans-serif;
 }
 
 .portfolio #portfolio-flters {
@@ -606,6 +607,7 @@ section {
   background: #fff;
   border-radius: 50px;
   padding: 2px 15px;
+  font-family: 'Gowun Dodum', sans-serif;
 }
 
 .portfolio #portfolio-flters li {
