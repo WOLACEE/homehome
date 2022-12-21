@@ -509,8 +509,9 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Gowun Dodum', sans-serif;
   color: #45505b;
+  font-size: 17px;
 }
 
 .skills .progress .skill .val {
