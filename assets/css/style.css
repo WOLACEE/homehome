@@ -985,6 +985,7 @@ section {
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 auto 15px auto;
+  font-family: 'Gowun Dodum', sans-serif;
 }
 
 .testimonials .swiper-pagination {
