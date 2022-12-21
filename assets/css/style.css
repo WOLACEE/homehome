@@ -418,7 +418,7 @@ section {
   font-weight: 700;
   font-size: 20px;
   color: #0f5132;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .about .content ul {
@@ -445,7 +445,7 @@ section {
 }
 
 .about .content p:last-child {
-  margin-top: 20px;
+  margin-top: 18px;
   font-family: 'Gowun Dodum', sans-serif;
   font-weight: bold;
   text-decoration: underline;
@@ -539,8 +539,9 @@ section {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   color: #45505b;
+
 }
 
 .resume .resume-item {
@@ -548,6 +549,7 @@ section {
   margin-top: -2px;
   border-left: 2px solid #0f5132;
   position: relative;
+  font-family: 'Gowun Dodum', sans-serif;
 }
 
 .resume .resume-item h4 {
@@ -555,9 +557,9 @@ section {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+ font-family: 'Gowun Dodum', sans-serif;
   color: #0f5132;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .resume .resume-item h5 {
@@ -574,7 +576,8 @@ section {
 }
 
 .resume .resume-item ul li {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  font-family: 'Gowun Dodum', sans-serif;
 }
 
 .resume .resume-item:last-child {
@@ -896,7 +899,7 @@ section {
 }
 
 .services .iconbox-orange i {
-  color: red;
+  color: darkred;
 }
 
 .services .iconbox-orange:hover .icon i {
@@ -904,7 +907,7 @@ section {
 }
 
 .services .iconbox-orange:hover .icon path {
-  fill:  red;
+  fill: darkred;
 }
 
 .services .iconbox-pink i {
@@ -920,7 +923,7 @@ section {
 }
 
 .services .iconbox-yellow i {
-  color: #ed3c0d;
+  color: red;
 }
 
 .services .iconbox-yellow:hover .icon i {
@@ -928,7 +931,7 @@ section {
 }
 
 .services .iconbox-yellow:hover .icon path {
-  fill: #ed3c0d;
+  fill: red;
 }
 
 /*--------------------------------------------------------------
