@@ -29,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Gowun Dodum', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -317,7 +317,7 @@ h6 {
   color: #45505b;
   margin: 15px 0 0 0;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Gowun Dodum', sans-serif;
 }
 
 #hero p span {
@@ -406,6 +406,7 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+  font-family: 'Gowun Dodum', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -420,6 +421,7 @@ section {
 .about .content ul {
   list-style: none;
   padding: 0;
+  font-family: 'Gowun Dodum', sans-serif;
 }
 
 .about .content ul li {
@@ -441,6 +443,7 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+  font-family: 'Gowun Dodum', sans-serif;
 }
 
 /*--------------------------------------------------------------
