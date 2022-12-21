@@ -529,7 +529,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #0f5132;
+  background-color: #90c8fc;
 }
 
 /*--------------------------------------------------------------
@@ -757,6 +757,7 @@ section {
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
+
 }
 
 .portfolio-details .portfolio-details-slider img {
@@ -783,6 +784,8 @@ section {
 .portfolio-details .portfolio-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(69, 80, 91, 0.08);
+  font-family: 'Gowun Dodum', sans-serif;
+
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -797,6 +800,7 @@ section {
   list-style: none;
   padding: 0;
   font-size: 15px;
+  font-family: 'Gowun Dodum', sans-serif;
 }
 
 .portfolio-details .portfolio-info ul li+li {
