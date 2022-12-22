@@ -902,7 +902,7 @@ section {
 }
 
 .services .iconbox-orange i {
-  color: darkred;
+  color: #dc3545;
 }
 
 .services .iconbox-orange:hover .icon i {
@@ -910,11 +910,11 @@ section {
 }
 
 .services .iconbox-orange:hover .icon path {
-  fill: darkred;
+  fill: #dc3545;
 }
 
 .services .iconbox-pink i {
-  color: #e80368;
+  color: #842029;
 }
 
 .services .iconbox-pink:hover .icon i {
@@ -922,19 +922,19 @@ section {
 }
 
 .services .iconbox-pink:hover .icon path {
-  fill: #e80368;
+  fill: #842029;
 }
 
 .services .iconbox-yellow i {
-  color: red;
+  color: #e80368;
 }
 
 .services .iconbox-yellow:hover .icon i {
-  color: #fff;
+  color: #fff
 }
 
 .services .iconbox-yellow:hover .icon path {
-  fill: red;
+  fill: #e80368;
 }
 
 /*--------------------------------------------------------------
