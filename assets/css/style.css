@@ -449,7 +449,7 @@ section {
   font-family: 'Gowun Dodum', sans-serif;
   font-weight: bold;
   text-decoration: underline;
-  font-size: 23px;
+  font-size: 22px;
 }
 
 /*--------------------------------------------------------------
@@ -529,7 +529,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #90c8fc;
+  background-color: #ffc107;
 }
 
 /*--------------------------------------------------------------
@@ -564,7 +564,7 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #f7f8f9;
+  background: #badbcc;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -706,6 +706,7 @@ section {
   font-size: 20px;
   color: #45505b;
   font-weight: 600;
+
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
@@ -765,6 +766,7 @@ section {
 
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
+
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
@@ -815,13 +817,14 @@ section {
 }
 
 .portfolio-details .portfolio-description h2 {
-  font-size: 26px;
+  font-size: 18px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+  font-family: 'Gowun Dodum', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -972,7 +975,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #90c8fc;
+  color: #ffc107;
   font-size: 26px;
 }
 
@@ -1208,7 +1211,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #ffc107;
+  background: #0f5132;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1221,7 +1224,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #0f5132;
+  background: #ffc107;
   color: #fff;
   text-decoration: none;
 }
