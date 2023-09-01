@@ -1,6 +1,6 @@
 function login() {
-    var id = document.querySelector('#id');
-    var pw = document.querySelector('#pw');
+    var id = document.querySelector('#fname');
+    var pw = document.querySelector('#lname');
 
     if(id.value == "" || pw.value == "") {
         alert("로그인을 할 수 없습니다.")
