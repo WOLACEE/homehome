@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head><title>면접시작1</title></head>
+<body>
+<form>
+   <h2>면접</h2>
+    <ul> <li><a href="#start">시작하기</a></li>
+자소서 선택 : <br>
+   <form id="form1" action="uploadForm" method="post" enctype="multipart/form-data" target="repacatFrame">
+    <input type="file" name="file">
+    <input type="submit">
+</form>
+
+<form>
+직군 선택: <br>
+    <select name=“field">
+        <option value="1">금융</option>
+        <option value="2" selected>IT</option>
+        <option value="3" selected>유통</option>
+     </select>
+</form>
+<form>
+면접유형 선택: <br>
+     <input type="checkbox" value="N:1">N:1
+      <input type="checkbox" value="1:1">1:1
+</form>
+<form>
+답변시간 선택: <br>
+    <input type="checkbox" value="60초">60초
+    <input type="checkbox" value="90초">90초
+    <input type="checkbox" value="120초">120초
+    <input type="checkbox" value="180초">180초
+</form>
+<form>
+총 면접시간: <br>
+    <input type="checkbox" value="10분">10분
+    <input type="checkbox" value="20분">20분
+    <input type="checkbox" value="30분">30분
+</form> <br>
+<input type="submit" value="다음"><br>
+</body>
+</html>
+
+
+
+
+
