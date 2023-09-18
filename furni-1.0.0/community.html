@@ -23,17 +23,30 @@
 		<link href="css/style.css" rel="stylesheet">
 		<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
 		<title>Furni Free Bootstrap 5 Template for Furniture and Interior Design Websites by Untree.co </title>
+
 	<style>
 		table{
 			border: 2px solid;
-			border-radius: 10px;
+			padding-top: 20px;
+
 		}
-		tr, td {
+		tr, td{
 			border: 2px solid;
 			padding: 10px;
 		}
+		div#ta{
+			padding-top: 20px;
+			padding-right: 20px;
+		}
+		div#bt{
+			padding-top: 20px;
+		}
+		div#a{
+			padding-top: 10px;
+		}
 	</style>
-</head>
+
+	</head>
 
 	<body>
 
@@ -76,11 +89,12 @@
 							<div class="intro-excerpt">
 								<h1>소통하기</h1>
 								<p class="mb-4">여러가지 공지사항이 올라옴</p>
-								<p><a href="#" class="btn btn-white-outline">공지사항</a> <a href="#" class="btn btn-secondary me-2">FAQ</a> <a href="#" class="btn btn-white-outline">커뮤니티</a></p>
+								<p><a href="shop.html" class="btn btn-white-outline">공지사항</a> <a href="FAQ.html" class="btn btn-white-outline">FAQ</a> <a href="" class="btn btn-secondary me-2">커뮤니티</a></p>
 							</div>
 						</div>
 						<div class="col-lg-7">
-							
+							<div class="hero-img-wrap">
+							</div>
 						</div>
 					</div>
 				</div>
@@ -96,45 +110,65 @@
 
 					<!-- Start Column 1 -->
 					<div class="col-md-5 col-lg-3 mb-5 mb-lg-0">
-						<h2 class="mb-4 section-title">FAQ</h2>
-						<p class="mb-4">자주하는 질문</p>
+						<h2 class="mb-4 section-title">커뮤니티</h2>
+						<p class="mb-4">다양한 정보를 함께 공유해보세요.</p>
 					</div>
 					<!-- End Column 1 -->
 
 					<!-- Start Column 2 -->
 					<div class="col-7 mb-5 mb-md-0">
-						<table>
+
+						<div class="subscription-form">
+							<form action="#" class="row g-3">
+
+								<div class="col-auto">
+									<input type="text" class="form-control">
+								</div>
+								<div class="col-auto">
+									<button class="btn btn-primary">검색</button>
+								</div>
+							</form>
+							<div/>
+
+							<div id="a">
+								<div>직종 <select name="category">
+									<option value="1">마케팅</option>
+									<option value="1">경영</option>
+									<option value="1">사무</option>
+								</select> </div>
+							</div>
+
+							<div id="ta">
+							<table>
 							<colgroup>
-							<col width="20px" />
-							<col width="900px"/>
-							<col width="20px" />
-							<col width="900px"/>
+							<col width="80px" />
+							<col width="1000px"/>
 							</colgroup>
-						<tbody>
-						<tr> <td>Q</td> <td>자소서는 하나만 등록 가능한가요? </td> <td>A</td> <td>자소서는...</td></tr>
-						<tr> <td>Q</td> <td>키워드 분석이 무엇인지 궁금합니다. </td> <td>A</td> <td>저희 월이스의 키워드 분석은...</td></tr>
-						<tr> <td>Q</td> <td>녹화, 녹음 저장 기간이 어떻게 되나요? </td> <td>A</td> <td>녹화, 녹음은 최대...</td></tr>
-						<tr> <td>Q</td> <td>면접 시 주의사항이 있나요? </td> <td>A</td> <td>지원자 분은 면접 시...</td></tr>
-						<tr> <td>Q</td> <td>면접 결과는 어떻게 확인하나요? </td> <td>A</td> <td>면접 창에 접속하여...</td></tr>
-						<tr> <td>Q</td> <td>직군은 반드시 선택해야하나요? </td> <td>A</td> <td>직군은...</td></tr>
-						<tr> <td>Q</td> <td>ㅇㅇㅇ </td> <td>A</td> <td>ㅇㅇㅇ...</td></tr>
-						<tr> <td>Q</td> <td>ㅇㅇㅇ </td> <td>A</td> <td>ㅇㅇㅇ...</td></tr>
-						<tr> <td>Q</td> <td>ㅇㅇㅇ </td> <td>A</td> <td>ㅇㅇㅇ…</td></tr>
-						<tr> <td>Q</td> <td>ㅇㅇㅇ </td> <td>A</td> <td>ㅇㅇㅇ…</td></tr>
-						<tr> <td>Q</td> <td>ㅇㅇㅇ </td> <td>A</td> <td>ㅇㅇㅇ…</td></tr>
-						<tr> <td>Q</td> <td>ㅇㅇㅇ </td> <td>A</td> <td>ㅇㅇㅇ…</td></tr>
-						<tr> <td>Q</td> <td>ㅇㅇㅇ </td> <td>A</td> <td>ㅇㅇㅇ…</td></tr>
-						<tr> <td>Q</td> <td>ㅇㅇㅇ </td> <td>A</td> <td>ㅇㅇㅇ…</td></tr>
+							<tbody>
+								<tr> <td style="background: #f9bf29" align="center">인기글</td> <td>ㅇㅇ기업 면접 후기 </td> </tr>
+								<tr> <td style="background: #f9bf29" align="center" >인기글</td> <td>이직관련 퇴사사유 </td> </tr>
+								<tr> <td style="background: #f9bf29" align="center">인기글</td> <td>신입사원 고민</td> </tr>
+								<tr> <td align="center">1</td> <td>둘 중 어떤 회사가 나을까요 </td> </tr>
+								<tr> <td align="center">2</td> <td>마케팅 직무 궁금한 점 있습니다. </td> </tr>
+								<tr> <td align="center">3</td> <td>같은 기억 다른 직무 동시 지원 </td> </tr>
+								<tr> <td align="center">4</td> <td>ㅇㅇㅇ이력서 양식 질문 </td> </tr>
+								<tr> <td align="center">5</td> <td>면접 시 어떤 복장 추천하시나요 </td> </tr>
+								<tr> <td align="center">6</td> <td>면접 후 연락 </td> </tr>
+								<tr> <td align="center">7</td> <td>ㅇㅇ관련 ㅇㅇ부서 조언구합니다 </td> </tr>
+							</tbody>
+							</table>
+								<div/>
 
-
-						</tbody>
-						</table>
+							<div id="bt">
+									<button class="btn btn-primary" style="float: right">글쓰기</button>
+								</div>
 
 					</div>
 
 
 				</div>
 			</div>
+		</div>
 		</div>
 		</div>
 	</body>
